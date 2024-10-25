@@ -1,0 +1,17 @@
+fastapi[standard]
+pydantic[email]
+uvicorn[standard]
+python-multipart
+opencv-python-headless
+cvzone
+ultralytics
+filterpy
+scikit-image
+lapx
+python-decouple
+motor
+python-jose
+passlib
+tf-keras
+deepface
+cloudinary

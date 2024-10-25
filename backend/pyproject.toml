@@ -1,0 +1,35 @@
+[tool.poetry]
+name = "backend"
+version = "0.1.0"
+description = ""
+authors = ["KodeWithKK <kodewithkk@gmail.com>"]
+package-mode = false
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+fastapi = "^0.115.2"
+uvicorn = {extras = ["standard"], version = "^0.31.1"}
+python-multipart = "^0.0.12"
+cvzone = "^1.6.1"
+ultralytics = "^8.3.11"
+opencv-python = "^4.10.0.84"
+opencv-python-headless = "^4.10.0.84"
+python-decouple = "^3.8"
+pydantic = {extras = ["email"], version = "^2.9.2"}
+motor = "^3.6.0"
+python-jose = "^3.3.0"
+passlib = {extras = ["bcrypt"], version = "^1.7.4"}
+tensorflow = "^2.17.0"
+deepface = "^0.0.93"
+tf-keras = "^2.17.0"
+tensorflow-intel = "^2.17.0"
+lapx = "^0.5.11"
+filterpy = "^1.4.5"
+scikit-image = "^0.24.0"
+cloudinary = "^1.41.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
