@@ -1,0 +1,6 @@
+.env
+.venv
+__pycache__
+vgg_face_weights.h5
+crowsC2.mp4
+test.mp4
